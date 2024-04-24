@@ -1,0 +1,52 @@
+/*main.css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
+
+*{margin:0px; padding:0px;}
+
+
+body{
+  font-family:'Noto Sans KR','맑은 고딕',arial,sans-serif;
+  font-size:0.8rem;
+  color:#333;
+}
+
+a{
+  text-decoration: none;
+  color:#333;
+}
+
+header h1, main h2{
+  text-align: center;
+  padding:5px 0px;
+}
+
+main > section > h2 img{height:70px;}
+
+.list01{}
+.list01 > li{
+  background-color: #f7a20f;
+  color:#fff;
+  line-height: 40px;
+  font-size:1rem; /*16px*/
+  text-indent: 10px;
+}
+ul a{
+  line-height: 40px;
+  display: block;
+  font-size:0.9rem;  
+  text-indent: 20px;
+  transition: 0.3s;
+}
+ul a:hover{
+  text-decoration: underline;
+  background-color: rgb(255, 255, 236);
+}
+.sub li{
+  background-color: #e8e8e8;
+}
+i.fas{
+  float:right;
+  font-size:1.4rem;
+  padding:10px 10px 0px 0px;
+}
